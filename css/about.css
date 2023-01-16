@@ -1,0 +1,214 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://burst.shopifycdn.com/photos/business-team-meeting-boardroom.jpg?width=925&format=pjpg&exif=1&iptc=1");
+
+  min-height: 450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+
+
+/* Navbar links */
+.navbar {
+  padding-bottom: 1rem;
+  background-color: #0081B4;
+  border-radius: 10px 100px / 120px;
+  height: 50%;
+}
+
+.info {
+  padding-top: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+}
+
+
+#second-section {
+  padding: 0 7%;
+}
+
+.title-text {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.description-text {
+  padding-bottom: 6%;
+}
+
+.description-text2 {
+  word-spacing: 10px;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
+
+.group-img {
+  width: 10%;
+  padding-top: 10%;
+}
+
+.illustration-img {
+  width: 100%;
+}
+
+.title-btn {
+  margin: 5% 3% 5% 0;
+  background-color: #55c48b;
+  border-radius: 15px;
+  padding: 1% 2%;
+}
+
+
+
+#third-section {
+  padding: 8% 7%;
+  background-color: #E3F6FF;
+}
+
+.networking-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-bottom: 3%;
+}
+
+.third-section-title-text {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.third-section-text {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.service-img {
+  margin-bottom: 1rem;
+  width: 18%;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+
+#testimonials {
+  padding: 5% 7%;
+  text-align: left;
+
+  border-radius: 20px;
+}
+
+.testimonial-img {
+  width: 15%;
+  margin: 20px;
+}
+
+.testimonial-title-text {
+  padding: 3% 0;
+  letter-spacing: 8px;
+  color: #00337C;
+}
+
+.testimonial-text {
+  padding-bottom: 5%;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+
+.testimonial-carousel {
+  padding: 8% 7%;
+  text-align: center;
+  word-spacing: 8px;
+  background-color: #E3F6FF;
+  border-radius: 50px;
+}
+
+.testimonials-text {
+  padding-bottom: 2%;
+}
+
+.testimonial-people {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  color: #55c48b;
+}
+
+#last-section {
+  background-color: #E3F6FF;
+  padding: 7% 10%;
+}
+
+.lastsection-title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.last-section-description {
+  letter-spacing: 2px;
+  word-spacing: 8px;
+}
+
+.lastsection-div {
+  padding-left: 15%;
+}
+
+.social-icon {
+  color: #55c48b;
+  padding: 15% 6%
+}
+
+.social-icon:hover {
+  color: #579BB1;
+}
+
+.copyright {
+  padding-top: 3%;
+  text-align: center;
+}

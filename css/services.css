@@ -1,0 +1,222 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://burst.shopifycdn.com/photos/business-team-meeting-boardroom.jpg?width=925&format=pjpg&exif=1&iptc=1");
+
+  min-height: 450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+
+
+/* Navbar links */
+.navbar {
+  padding-bottom: 1rem;
+  background-color: #0081B4;
+  border-radius: 10px 100px / 120px;
+  height: 50%;
+}
+
+.info {
+  padding-top: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+}
+
+
+#services {
+  padding: 8% 7% 3% 7%;
+}
+
+#features {
+  background-color: #E3F6FF;
+}
+
+.strategy-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-bottom: 3%;
+}
+
+.strategy-title-text {
+  text-align: center;
+  padding: 2% 0;
+  letter-spacing: 8px;
+  color: #00337C;
+}
+
+.strategy-text {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 2%;
+}
+
+.feature-title {
+  padding-top: 1rem;
+}
+
+.service-description {
+  text-align: left;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.service-img {
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+
+#packages {
+  padding: 8% 7% 3% 7%;
+
+}
+
+.user-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-bottom: 3%;
+}
+
+
+#pricing {
+  padding: 5%;
+
+}
+
+.card {
+      padding: 10px 10px;
+    }
+
+    .card::after {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .card:hover {
+      transform: scale(1.02, 1.02);
+      -webkit-transform: scale(1.02, 1.02);
+      backface-visibility: hidden;
+      will-change: transform;
+      box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+    }
+
+    .card:hover::after {
+      opacity: 1;
+    }
+
+    .card:hover .btn-outline-primary{
+      color:white;
+      background:#007bff;
+    }
+
+.card-header {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.price-text {
+  text-align: center;
+}
+
+.services-provided {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  line-height: 2rem;
+}
+
+.pricing-btn {
+  padding: 2%;
+  border-radius: 20px;
+}
+
+#last-section {
+  background-color: #E3F6FF;
+  padding: 7% 10%;
+}
+
+.lastsection-title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.last-section-description {
+  letter-spacing: 2px;
+  word-spacing: 8px;
+}
+
+.lastsection-div {
+  padding-left: 15%;
+}
+
+.social-icon {
+  color: #55c48b;
+  padding: 15% 6%
+}
+
+.social-icon:hover {
+  color: #579BB1;
+}
+
+.copyright {
+  padding-top: 3%;
+  text-align: center;
+}
